@@ -54,8 +54,10 @@ def format_date_for_comparison(date):
         return float(date[2:]) + 0.25
     elif date[1] == 3:
         return float(date[2:]) + 0.50
-    else:
+    elif date[1] == 4:
         return float(date[2:]) + 0.75
+    else:
+        return float(date[2:])
 
 def end_before_start(start_date, end_date):
     num_start_date = format_date_for_comparison(start_date)
