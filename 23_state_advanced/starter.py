@@ -24,5 +24,3 @@ col1, col2, col3 = st.columns(3)
 
 col1.date_input("Start date")
 col2.date_input("End date")
-
-# build an app to convert celcius to farenheit and kelvin
