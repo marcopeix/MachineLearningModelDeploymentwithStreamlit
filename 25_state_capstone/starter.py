@@ -36,7 +36,7 @@ if __name__ == "__main__":
             st.selectbox("Make", key="make", index=0, options=['toyota', 'honda'])
             st.selectbox("Province", index=0, key="province", options=['NB', 'QC', 'BC', 'ON', 'AB', 'MB', 'SK', 'NS', 'PE', 'NL', 'YT', 'NC', 'OH','SC'])
         
-        st.form_submit_button("Calculate", type="primary", on_click=make_prediction, kwargs=dict(pipe=pipe))
+        st.form_submit_button("Calculate", type="primary")
 
     # Display the prediction
     # If the value is empty, display a message to click on the button
