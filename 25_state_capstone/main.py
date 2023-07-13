@@ -57,6 +57,6 @@ if __name__ == "__main__":
     if st.session_state["pred"] is not None:
         st.subheader(f"The estimated car price is {st.session_state.pred}$")
     else:
-        st.write("Input informationa and click on Calculate to get an estimated price")
+        st.write("Input information and click on Calculate to get an estimated price")
     
     st.write(st.session_state)
