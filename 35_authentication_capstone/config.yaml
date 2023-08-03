@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    marketing:
+      email: marketing@mail.com
+      name: Marketing Team
+      password: "$2b$12$XY6Vau7F7YGRIuIBvB2Zf.1LY/KBHRdIhcp8Xlq/ydo3HJFbpQWnK"
+    datascience:
+      email: datascience@mail.com
+      name: Data Science Team
+      password: "$2b$12$cnEz04fT84pF/7bFFEPyaObRuUDBTG80Er0A5XKhFkPcI.tewtEoi"
+cookie:
+  expiry_days: 30
+  key: cookie_signature
+  name: cookie_name
+
+
+
